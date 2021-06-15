@@ -1,0 +1,158 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    color: #fff;
+    background: #000;
+    line-height: 1.5em;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* * {
+    outline: 0;
+} */
+
+div.container {
+    width: 100%;
+}
+
+article {
+    /* display: block; */
+    margin: 0 auto;
+    padding: 150px 0 0 0;
+    width: 300px;
+    min-height: 200px;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    height: 70px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 20px 6px #000;
+}
+
+nav {
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+
+/* footer {
+    padding: 10px;
+    background: rgb(0, 0, 0);
+    color: #ddd;
+    display: block;
+    font-size: 11px;
+} */
+
+
+/* .clear {
+    clear: both;
+} */
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    font-weight: normal;
+}
+
+p {
+    text-shadow: 0px 0px 2px #000;
+}
+
+a {
+    color: #00aeff;
+}
+
+
+/*************************** MENU **/
+
+ul.nav {
+    list-style: none;
+    padding: 0;
+    height: 40px;
+    margin: 17px 0 0 150px;
+}
+
+ul.nav li {
+    margin: 0px;
+    padding: 0;
+    display: inline-block;
+    /* position: relative; */
+}
+
+ul.nav li a {
+    display: block;
+    background-color: #222;
+    /* margin: 5px 0 0 0; */
+    line-height: 36px;
+    text-align: center;
+    padding: 0 10px;
+    margin: 1px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    border: 1px solid #666;
+    border-radius: 6px;
+}
+
+ul.nav li a:hover {
+    color: #222;
+    background: #ccc;
+    box-shadow: 0px 0px 4px #ccc;
+    text-shadow: none;
+}
+
+ul.nav li.actif a {
+    box-shadow: 0px 0px 3px #999;
+    border-color: #fff;
+}
+
+ul.nav li em {
+    display: none;
+    position: absolute;
+    bottom: -8px;
+    background: url(images/marqueur.png) bottom center no-repeat;
+    height: 10px;
+    width: 100%;
+}
+
+ul.nav li.actif em {
+    display: block;
+}
+
+
+/*************************** PARTS **/
+
+div#support {
+    width: 100%;
+    height: 650px;
+    background: url(../images/bkg1.jpg) top center no-repeat;
+}
+
+div#responsive {
+    width: 100%;
+    height: 650px;
+    background: url(../images/bkg2.jpg) top center no-repeat;
+}
+
+div#mobiles {
+    width: 100%;
+    height: 650px;
+    background: url(../images/bkg3.jpg) top center no-repeat;
+}
+
+div#etude {
+    width: 100%;
+    height: 650px;
+    background: url(../images/bkg4.jpg) top center no-repeat;
+}
